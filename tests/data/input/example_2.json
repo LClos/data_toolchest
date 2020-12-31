@@ -1,0 +1,16 @@
+{
+  "array_eg": [1, 2, 3],
+  "bool_eg": true,
+  "int_eg": 1,
+  "float_eg": 3.1415,
+  "null_eg": null,
+  "object_eg": {
+    "bool_eg": false,
+    "int_eg": 1,
+    "float_eg": 1.6180,
+    "str_eg": "tier1 object-changed value"
+  },
+  "str_eg": "blah",
+  "str_int_eg": "1",
+  "str_float_eg": "1.000000"
+}

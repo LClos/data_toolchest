@@ -1,0 +1,61 @@
+{
+  "array_eg": [1, 2, 3],
+  "array_mixed_eg": [
+    1,
+    2.0,
+    "3.0",
+    "string",
+    [
+      ["[5][0][0]", "[5][0][1]"],
+      [
+        ["[5][1][0][0]", "[5][1][0][1]", "[5][1][0][2]"],
+        [
+          ["[5][1][1][0][0]", "[5][1][1][0][1]"]
+        ],
+        ["[5][1][2][0]"]
+      ],
+      ["[5][1][0]"]
+    ],
+    {"str_eg": "foo"}
+  ],
+  "bool_eg": true,
+  "int_eg": 1,
+  "float_eg": 3.1415,
+  "null_eg": null,
+  "object_eg": {
+    "array_eg": [
+      {"int_eg": 1},
+      {"float_eg": 0.1000}
+    ],
+    "bool_eg": false,
+    "int_eg": 1,
+    "float_eg": 1.6180,
+    "object_eg": {
+      "array_eg": [
+        {"int_eg": 1},
+        {"float_eg": 0.1000}
+      ],
+      "bool_eg": true,
+      "int_eg": 2,
+      "float_eg": 1.6180,
+      "object_eg": {
+        "array_eg": [
+          {"int_eg": 1},
+          {"float_eg": 0.1000}
+        ],
+        "bool_eg": false,
+        "int_eg": 3,
+        "float_eg": 1.6180,
+        "object_eg": {
+          "str_eg": "tier4 object"
+        },
+        "str_eg": "tier3 object"
+      },
+      "str_eg": "tier2 object"
+    },
+    "str_eg": "tier1 object"
+  },
+  "str_eg": "blah",
+  "str_int_eg": "1",
+  "str_float_eg": "1.000000"
+}
