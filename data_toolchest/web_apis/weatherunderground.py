@@ -17,8 +17,8 @@ _weatherunderground_key  = 'a684b2fcb86e3f53'
 
 class Weather_Data_Dict:
     """Weather data object."""
-    def __init__(self, records_dirpath = None):
-        """Initiate weather data object"""
+    def __init__(self, records_dirpath=None):
+        """Initiate weather data object."""
         if records_dirpath is None:
             records_dirpath = _weatherrecords_json_dir
         self.records_dirpath = records_dirpath
